@@ -10,7 +10,7 @@ function App() {
 
   useEffect(() => {
     const recoverTasks = JSON.parse(localStorage.getItem('tasks'));
-    if (recoverTasks.length) {
+    if (recoverTasks) {
       setTasks(recoverTasks);
     }
   }, []);
