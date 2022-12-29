@@ -1,7 +1,7 @@
 {
   "name": "todo-list",
   "version": "0.1.0",
-  "homepage": "https://github.com/Tomonobu22/react_todoList",
+  "homepage": "https://tomonobu22.github.io/react_todoList",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
@@ -14,7 +14,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
