@@ -28,6 +28,10 @@
   text-decoration: line-through;
 }
 
+.task-container:hover {
+  background-color: rgb(14, 53, 78);
+}
+
 @media only screen and (max-width: 500px) {
   .task-container {
     width: 300px;
